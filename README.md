@@ -25,4 +25,4 @@ The Zero ASCII Character - 0, represents empty space. Numbers represent the numb
 
 
 
-Java - Under development, but coming very soon!
+Java - This was built in IntelliJ, but should work great with your favorite Java IDE directly!
