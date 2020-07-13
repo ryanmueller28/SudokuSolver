@@ -1,6 +1,8 @@
 # SudokuSolver
 This is an implementation of recursive backtracking to solve Sudoku Puzzles on user input. There are two main implementations:
-C++ and Java. The C++ implementation interfaces with the commmand line as a Command Line program. The Java implementation, still under development, will use the command line and eventually JavaFX to solve GUI Java problems with the same algorithm.
+C++ and Java. The C++ implementation interfaces with the commmand line as a Command Line program. The Java implementation features two Java files that when plugged into your favorite Java IDE in one project or compiled in the commandline with the command: javac *.java. 
+
+The program can then be executed with java Main.
 
 Recursive Backtracking is a useful method for solving problems when Choices are well defined, we have constraints on the choices we have to make, and we have a well defined goal. Solving a sudoku grid is an excellent reason to use this. A recursive problem solves sub problems, before solving a large one. Backtracking allows us to roll back previous attempted solutions in the event that the attempted solution does not apply any more, this is especially useful in solving Sudoku problems.
 
